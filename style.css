@@ -96,3 +96,7 @@ header nav li a:hover {
 .user button a:hover{
   font-size: 2rem;
 }
+
+.user svg {
+  cursor: pointer;
+}
