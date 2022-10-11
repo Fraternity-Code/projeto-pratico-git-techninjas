@@ -41,6 +41,7 @@ header nav {
   align-items: center;
   padding: 0 6.45rem;
   height: 8rem;
+  border-radius: .4rem;
 }
 
 header nav ul {
@@ -52,10 +53,16 @@ header nav ul {
 
 header nav li a {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
   color: #FFFFFF;
   text-decoration: none;
+  cursor: pointer;
+  transition: font-size .2s;
+}
+
+header nav li a:hover {
+  font-size: 2rem;
 }
 
 .user {
@@ -68,6 +75,12 @@ header nav li a {
   padding: 10px 16px;
   
   background: #AD1AAF;
+  border-radius: .4rem;
+}
+
+.user button:hover {
+  background: #79127a;
+
 }
 
 .user button a {
@@ -77,4 +90,9 @@ header nav li a {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.2rem;
+  transition: font-size .2s;
+}
+
+.user button a:hover{
+  font-size: 2rem;
 }
