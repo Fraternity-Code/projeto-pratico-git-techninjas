@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: #140C1F;
+
+  font-size: 1.6rem;
+}
+
+header {
+  display: flex;
+  font-family: 'Oxanium', sans-serif;
+  color: #FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 12.15rem 0 12.15rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+}
+
+header nav {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 6.45rem;
+  height: 8rem;
+  border-radius: .4rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  list-style: none;
+}
+
+header nav li a {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  transition: font-size .2s;
+}
+
+header nav li a:hover {
+  font-size: 2rem;
+}
+
+.user {
+  display: flex;
+  gap: 3.2rem;
+} 
+
+
+.user button {
+  padding: 10px 16px;
+  
+  background: #AD1AAF;
+  border-radius: .4rem;
+}
+
+.user button:hover {
+  background: #79127a;
+
+}
+
+.user button a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  transition: font-size .2s;
+}
+
+.user button a:hover{
+  font-size: 2rem;
+}
+
+.user img {
+  cursor: pointer;
+}
