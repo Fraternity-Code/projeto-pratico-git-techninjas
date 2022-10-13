@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -9,9 +9,8 @@
 }
 
 body {
-  background: #140C1F;
-
-  font-size: 1.6rem;
+    background: #1E1629;
+    overflow-x: hidden;
 }
 
 header {
@@ -98,4 +97,137 @@ header nav li a:hover {
 
 .user img {
   cursor: pointer;
+}
+
+.hero {
+    width: 54.6rem;
+    height: 23.475rem;
+    margin-left: 3.5rem;
+}
+
+.hero h1 {
+    font-family: 'Oxanium', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 4.8rem;
+    line-height: 6rem;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-family:'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+
+    color: #FFF;
+
+    margin-top: 3.225rem;
+}
+
+.container {
+    width: 24.75rem;
+    height: 29.7rem;
+    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.01)0%, rgba(255, 255, 255, 0.05) 101.7%);
+    border-style: solid; 
+    border-color: rgba(255, 255, 255, 0.4);
+    border-width: 0.25rem 0rem;
+    backdrop-filter: blur(1.75rem);
+    border-radius: 3.15rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 21.57rem;
+    height: 21rem;
+}
+
+.container h4 {
+    font-family: 'Oxanium', sans-serif;
+    font-size: 1.875rem;
+    line-height: 2.343rem;
+    text-transform: capitalize;
+    color: #FFF;
+    margin-bottom: 0.6rem;
+}
+
+.container p {
+    font-family: 'Oxanium', sans-serif;
+    font-size: 1.275rem;
+    line-height: 1.593rem;
+    color: #FFF;
+}
+
+.hero button {
+    font-family: 'Oxanium', sans-serif;
+    font-size: 2.475rem;
+    line-height: 3.15rem;
+    font-weight: 500;
+    color: #fff;
+
+    width: 20.3rem;
+    height: 5.25rem;
+
+    margin-top: 6rem;
+    margin-right:2.5rem;
+}
+
+.hero .b1 {
+    background: #AD1AAF;
+    border: 1px solid #AD1AAF;
+}
+
+.hero .b2 {
+    background: #1E1629; 
+    border: 1px solid #AD1AAF;  
+}
+
+.hero button:hover {
+    border-color: aqua;
+    font-size: 2.25rem;
+}
+
+.big-hero {
+    margin-top: 11.475rem;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-card {
+    width: 35.45rem;
+    height: 27.15rem;
+    display: flex;
+}
+
+#card-one {
+    position: absolute;
+    z-index: 1;
+    right: 22rem;
+    top: 8.25rem;
+
+    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 57.1%);
+}
+
+#card-two {
+    position: absolute;
+    right: 34.75rem;
+    top: 15rem;
+}
+
+#card-three {
+    position: absolute;
+    right: 5.25rem;
+    top: 19.05rem;
+}
+
+#milky {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    bottom: -170px;
 }
