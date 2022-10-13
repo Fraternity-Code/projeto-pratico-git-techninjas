@@ -9,6 +9,7 @@
 
 body {
     background: #1E1629;
+    overflow-x: hidden;
 }
 
 .hero {
@@ -105,8 +106,9 @@ body {
 
 .big-hero {
     margin-top: 11.475rem;
-    display: flex;
-
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-card {
@@ -139,4 +141,6 @@ body {
 #milky {
     position: absolute;
     z-index: -1;
+    width: 100vw;
+    bottom: -170px;
 }
