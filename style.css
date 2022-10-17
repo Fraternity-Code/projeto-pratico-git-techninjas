@@ -107,13 +107,13 @@ header nav li a:hover {
 footer {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
-  align-self: flex-end;
+  align-items: center;
 }
+
 
 .logo-footer{
   display: flex;
-  align-items: top; 
+  align-self: top; 
 }
 
 .logo-footer h1 {
@@ -151,7 +151,8 @@ footer {
 }
 
 .about-support li a {
- 
+  display: flex;
+  flex-direction: column;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.5rem;
   height: 2.7rem;
