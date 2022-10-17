@@ -65,7 +65,7 @@ body {
     padding: 20px;   
 }
 
-.wallet-contents a {  
+.wallet-contents li a {  
     width: 18rem;
     height: 22rem;  
     background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
