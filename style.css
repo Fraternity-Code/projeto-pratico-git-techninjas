@@ -156,15 +156,13 @@ footer {
   font-size: 1.5rem;
   height: 2.7rem;
   color: #96839B;
+  gap: 1.8rem;
 }
 
-.about-support-title a li {
 
-}
 #about, #support {
   color: #fff;
   font-size: 1.7rem;
   height: 2.7rem;
   font-weight: 700;
-  margin-bottom: 1.8rem;
 }
