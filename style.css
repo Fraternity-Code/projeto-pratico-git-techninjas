@@ -5,12 +5,12 @@
 }
 
 :root {
-  font-size: 62.5%;
+    font-size: 62.5%;
+    font-family: 'Oxanium', sans-serif;
 }
 
 body {
     background: #1E1629;
-    overflow-x: hidden;
 }
 
 header {
@@ -230,4 +230,70 @@ header nav li a:hover {
     z-index: -1;
     width: 100vw;
     bottom: -170px;
+}
+
+.wallet-texts {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wallet-texts p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+
+    padding-top: 8rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+
+    background: linear-gradient(90.13deg, #0E849A 0%, #F81DFB 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wallet-texts h1 {
+    font-family: 'Oxanium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 125px;
+    margin-bottom: 3rem;
+}
+
+.wallet-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.wallet-contents p {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 25px;  
+}
+
+.wallet-contents img {
+    width: 12rem;
+    margin: 20px auto;
+
+    background-image: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);;
+    border-radius: 50%;
+    padding: 20px;   
+}
+
+.wallet-contents li a {  
+    width: 18rem;
+    height: 22rem;  
+    background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    backdrop-filter: blur(10px);
+    
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
 }
