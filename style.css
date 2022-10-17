@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: #1E1629;
+}
+
+.wallet-texts {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wallet-texts p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    
+    /*padding-top: 187.5rem;*/
+    padding-top: 8rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+
+    background: linear-gradient(90.13deg, #0E849A 0%, #F81DFB 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.wallet-texts h1 {
+    font-family: 'Oxanium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 125px;
+}
