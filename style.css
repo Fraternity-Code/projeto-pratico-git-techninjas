@@ -1,32 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 :root {
-    font-size: 62.5%;
-    font-family: 'Oxanium', sans-serif;
+  font-size: 62.5%;
+  font-family: "Oxanium", sans-serif;
 }
 
 body {
-    background: #1E1629;
+  background: #1e1629;
 }
 
 header {
   display: flex;
-  font-family: 'Oxanium', sans-serif;
-  color: #FFFFFF;
+  font-family: "Oxanium", sans-serif;
+  color: #ffffff;
   justify-content: space-between;
   align-items: center;
   padding: 3.5rem 12.15rem 0 12.15rem;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
-  
 }
 
 .logo h1 {
@@ -36,12 +35,16 @@ header {
 }
 
 header nav {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   display: flex;
   align-items: center;
   padding: 0 6.45rem;
   height: 8rem;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
 }
 
 header nav ul {
@@ -55,10 +58,10 @@ header nav li a {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
-  transition: font-size .2s;
+  transition: font-size 0.2s;
 }
 
 header nav li a:hover {
@@ -68,31 +71,29 @@ header nav li a:hover {
 .user {
   display: flex;
   gap: 3.2rem;
-} 
-
+}
 
 .user button {
   padding: 10px 16px;
-  
-  background: #AD1AAF;
-  border-radius: .4rem;
+
+  background: #ad1aaf;
+  border-radius: 0.4rem;
 }
 
 .user button:hover {
   background: #79127a;
-
 }
 
 .user button a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.2rem;
-  transition: font-size .2s;
+  transition: font-size 0.2s;
 }
 
-.user button a:hover{
+.user button a:hover {
   font-size: 2rem;
 }
 
@@ -101,234 +102,278 @@ header nav li a:hover {
 }
 
 .hero {
-    width: 54.6rem;
-    height: 23.475rem;
-    margin-left: 3.5rem;
+  width: 54.6rem;
+  height: 23.475rem;
+  margin-left: 3.5rem;
 }
 
 .hero h1 {
-    font-family: 'Oxanium', sans-serif;
-    color: #fff;
-    font-weight: 600;
-    font-size: 4.8rem;
-    line-height: 6rem;
-    text-transform: uppercase;
+  font-family: "Oxanium", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  text-transform: uppercase;
 }
 
 .hero p {
-    font-family:'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 
-    color: #FFF;
+  color: #fff;
 
-    margin-top: 3.225rem;
+  margin-top: 3.225rem;
 }
 
 .container {
-    width: 24.75rem;
-    height: 29.7rem;
-    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.01)0%, rgba(255, 255, 255, 0.05) 101.7%);
-    border-style: solid; 
-    border-color: rgba(255, 255, 255, 0.4);
-    border-width: 0.25rem 0rem;
-    backdrop-filter: blur(1.75rem);
-    border-radius: 3.15rem;
+  width: 24.75rem;
+  height: 29.7rem;
+  background: linear-gradient(
+    160.61deg,
+    rgba(255, 255, 255, 0.01) 0%,
+    rgba(255, 255, 255, 0.05) 101.7%
+  );
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+  border-width: 0.25rem 0rem;
+  backdrop-filter: blur(1.75rem);
+  border-radius: 3.15rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container img {
-    width: 21.57rem;
-    height: 21rem;
+  width: 21.57rem;
+  height: 21rem;
 }
 
 .container h4 {
-    font-family: 'Oxanium', sans-serif;
-    font-size: 1.875rem;
-    line-height: 2.343rem;
-    text-transform: capitalize;
-    color: #FFF;
-    margin-bottom: 0.6rem;
+  font-family: "Oxanium", sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.343rem;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 0.6rem;
 }
 
 .container p {
-    font-family: 'Oxanium', sans-serif;
-    font-size: 1.275rem;
-    line-height: 1.593rem;
-    color: #FFF;
+  font-family: "Oxanium", sans-serif;
+  font-size: 1.275rem;
+  line-height: 1.593rem;
+  color: #fff;
 }
 
 .hero button {
-    font-family: 'Oxanium', sans-serif;
-    font-size: 2.475rem;
-    line-height: 3.15rem;
-    font-weight: 500;
-    color: #fff;
+  font-family: "Oxanium", sans-serif;
+  font-size: 2.475rem;
+  line-height: 3.15rem;
+  font-weight: 500;
+  color: #fff;
 
-    width: 20.3rem;
-    height: 5.25rem;
+  width: 20.3rem;
+  height: 5.25rem;
 
-    margin-top: 6rem;
-    margin-right:2.5rem;
+  margin-top: 6rem;
+  margin-right: 2.5rem;
 }
 
 .hero .b1 {
-    background: #AD1AAF;
-    border: 1px solid #AD1AAF;
+  background: #ad1aaf;
+  border: 1px solid #ad1aaf;
 }
 
 .hero .b2 {
-    background: #1E1629; 
-    border: 1px solid #AD1AAF;  
+  background: #1e1629;
+  border: 1px solid #ad1aaf;
 }
 
 .hero button:hover {
-    border-color: aqua;
-    font-size: 2.25rem;
+  border-color: aqua;
+  font-size: 2.25rem;
 }
 
 .big-hero {
-    margin-top: 11.475rem;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+  margin-top: 11.475rem;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-card {
-    width: 35.45rem;
-    height: 27.15rem;
-    display: flex;
+  width: 35.45rem;
+  height: 27.15rem;
+  display: flex;
 }
 
 #card-one {
-    position: absolute;
-    z-index: 1;
-    right: 22rem;
-    top: 8.25rem;
+  position: absolute;
+  z-index: 1;
+  right: 22rem;
+  top: 8.25rem;
 
-    background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 57.1%);
+  background: linear-gradient(
+    160.61deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.05) 57.1%
+  );
 }
 
 #card-two {
-    position: absolute;
-    right: 34.75rem;
-    top: 15rem;
+  position: absolute;
+  right: 34.75rem;
+  top: 15rem;
 }
 
 #card-three {
-    position: absolute;
-    right: 5.25rem;
-    top: 19.05rem;
+  position: absolute;
+  right: 5.25rem;
+  top: 19.05rem;
 }
 
 #milky {
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    bottom: -170px;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  bottom: -170px;
 }
 
 .wallet-texts {
-    color: #FFFFFF;
-    text-align: center;
+  color: #ffffff;
+  text-align: center;
 }
 
 .wallet-texts p {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  text-transform: capitalize;
 
-    padding-top: 8rem;
-    font-size: 1.5rem;
-    line-height: 30px;
+  padding-top: 8rem;
+  font-size: 1.5rem;
+  line-height: 30px;
 
-    background: linear-gradient(90.13deg, #0E849A 0%, #F81DFB 99.96%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(90.13deg, #0e849a 0%, #f81dfb 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .wallet-texts h1 {
-    font-family: 'Oxanium', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 6rem;
-    line-height: 125px;
-    margin-bottom: 3rem;
+  font-family: "Oxanium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 125px;
+  margin-bottom: 3rem;
 }
 
 .wallet-contents {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
 
 .wallet-contents p {
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 25px;  
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 25px;
 }
 
 .wallet-contents img {
-    width: 12rem;
-    margin: 20px auto;
+  width: 12rem;
+  margin: 20px auto;
 
-    background-image: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);;
-    border-radius: 50%;
-    padding: 20px;   
+  background-image: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  border-radius: 50%;
+  padding: 20px;
 }
 
-.wallet-contents li a {  
-    width: 18rem;
-    height: 22rem;  
-    background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
-    backdrop-filter: blur(10px);
-    
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
+.wallet-contents li a {
+  width: 18rem;
+  height: 22rem;
+  background: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 /* How it works */
 .how-work {
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    margin: 15rem 0;
+  padding: 15rem 0;
+
+  background-image: url(/assets/Blurr\ effec.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 .how-work h1 {
-    padding: 3rem;
-    color: white;
+  padding: 2rem;
+
+  color: #f5fbf2;
+  font-size: 64px;
+  line-height: 130px;
+  font-family: "Oxanium", sans-serif;
+
+  text-transform: capitalize;
 }
 
-
 .how-steps ul {
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 30px;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
 }
 
 .how-steps ul li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.how-steps p {
+  color: #ffffff;
+  font-size: 18px;
+
+  margin-bottom: 1rem;
 }
 
 
+.images{
+    padding: 34px;
+    border-radius: 50%;
+    background-image: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+}
