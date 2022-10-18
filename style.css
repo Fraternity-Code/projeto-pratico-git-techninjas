@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 :root {
@@ -297,3 +298,37 @@ header nav li a:hover {
     align-items: center;
     overflow-x: hidden;
 }
+
+/* How it works */
+.how-work {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15rem 0;
+}
+
+.how-work h1 {
+    padding: 3rem;
+    color: white;
+}
+
+
+.how-steps ul {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+ 
+}
+
+.how-steps ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
