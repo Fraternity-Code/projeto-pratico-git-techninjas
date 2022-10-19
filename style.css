@@ -374,3 +374,27 @@ header nav li a:hover {
     rgba(255, 255, 255, 0.05) 100%
   );
 }
+
+/* Our-collection */
+
+.content-collection {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.81rem;
+}
+
+.content-text {
+  background: linear-gradient(90.13deg, #FFFFFF 0%, #F81DFB 99.96%);
+  font-size: 1.56rem;
+  font-family: 'Leto', sans-serif;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content-title {
+  font-size: 6.25rem;
+}
