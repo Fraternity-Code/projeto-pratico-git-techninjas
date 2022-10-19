@@ -8,6 +8,13 @@
 :root {
   font-size: 62.5%;
   font-family: "Oxanium", sans-serif;
+  text-decoration: none;
+
+  --cf-secundary: #fff;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -99,6 +106,69 @@ header nav li a:hover {
 
 .user img {
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-footer {
+  display: flex;
+  align-self: top;
+}
+
+.logo-footer h1 {
+  font-family: "Oxanium", sans-serif;
+
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6rem;
+
+  color: #fff;
+  align-self: center;
+}
+
+.social {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  height: 2.7rem;
+  color: #96839b;
+  width: 26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.icons {
+  text-decoration: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.icons img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.about-support li a {
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  height: 2.7rem;
+  color: #96839b;
+  gap: 1.8rem;
+}
+
+#about,
+#support {
+  color: #fff;
+  font-size: 1.7rem;
+  height: 2.7rem;
+  font-weight: 700;
 }
 
 .hero {
@@ -332,7 +402,6 @@ header nav li a:hover {
   background-position: center;
 }
 
-
 .how-work h1 {
   padding: 2rem;
 
@@ -349,7 +418,6 @@ header nav li a:hover {
   justify-content: center;
   align-items: center;
   gap: 5rem;
-
 }
 
 .how-steps ul li {
@@ -367,13 +435,31 @@ header nav li a:hover {
   margin-bottom: 1rem;
 }
 
-
-.images{
-    padding: 34px;
-    border-radius: 50%;
-    background-image: linear-gradient(
+.images {
+  padding: 34px;
+  border-radius: 50%;
+  background-image: linear-gradient(
     147.75deg,
     rgba(255, 255, 255, 0.1) 0%,
     rgba(255, 255, 255, 0.05) 100%
   );
+  padding: 20px;
+}
+
+.wallet-contents li a {
+  width: 18rem;
+  height: 22rem;
+  background: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
