@@ -297,3 +297,47 @@ header nav li a:hover {
     align-items: center;
     overflow-x: hidden;
 }
+
+.input-emailnews {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter h1 {
+    font-family: 'Oxanium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 125px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+    text-align: center;
+
+    color: #F5FBF2;
+}
+
+#event-email {
+    background-color: #1E1629;
+    border: 1px solid #AD1AAF;
+    border-radius: 8px;
+
+    height: 5.6rem;
+
+    padding: 0 24px;
+
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #6c6a71;
+    margin-bottom: 5rem;
+
+    display: flex;
+    align-self: center;
+    width: 37%;    
+    
+    background-image: url(./assets/send.svg);
+    background-repeat: no-repeat;
+    background-position: right 24px top 50%; 
+}
+
