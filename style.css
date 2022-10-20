@@ -463,3 +463,64 @@ footer {
   align-items: center;
   overflow-x: hidden;
 }
+
+.newsletter {
+    margin-bottom: 5rem;
+}
+
+.input-newsletter {
+    display: flex;
+    align-items: center;
+   
+    background-color: #1E1629;
+    border: 1px solid #AD1AAF;
+    border-radius: 8px;
+
+    width: 55rem;
+    padding: 8px 32px 8px 0;
+
+    margin: 0 auto;
+
+}
+
+.newsletter button {
+    background-color: #AD1AAF;
+    border-radius: 10px;
+
+    padding: 16px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter h2 {
+    font-family: 'Oxanium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 125px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+    text-align: center;
+
+    color: #F5FBF2;
+}
+
+#event-email {    
+    padding: 0 24px;
+
+    font-size: 2.4rem;
+    line-height: 26px;
+
+    color: #6c6a71;
+
+    outline: none;
+
+    background: transparent;
+    border: none;
+
+    flex: 1; 
+}
