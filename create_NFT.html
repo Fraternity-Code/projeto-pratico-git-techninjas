@@ -9,16 +9,11 @@
     <title>Shihami</title>
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;700family=Work+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;700&family=Lato:wght@300&display=swap"
       rel="stylesheet"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;700&family=Lato&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="create_NFT.css" />
 
     <title>Shihami</title>
   </head>
@@ -43,24 +38,58 @@
       </div>
     </header>
 
-    <section>
+    <section class="input_section">
       <div class="input_field">
         <form>
           <div class="input_box">
             <label for="item-name">Item Name</label>
-            <input id="item-name" type="text" />
+            <input id="item-name" type="text" placeholder="enter item name" / >
           </div>
           <div class="input_box">
             <label for="collection">Collection</label>
-            <input id="collection" type="select" />
+            <input
+              id="collection"
+              type="select"
+              placeholder="select collection"
+            />
           </div>
           <div class="input_box">
             <label for="blockchain">BlockChain</label>
-            <input id="blockchain" type="number" />
+            <input id="blockchain" type="number" placeholder="ethereum" />
           </div>
         </form>
 
-        <form></form>
+        <form>
+          <div class="input_box">
+            <label for="external-link">external link</label>
+            <input
+              id="external-link"
+              type="url"
+              placeholder="https://yoursite.com/item/123"
+            />
+          </div>
+          <div class="input_box">
+            <label for="supply">supply</label>
+            <input id="supply" type="number" placeholder="1" />
+          </div>
+        </form>
+      </div>
+
+      <div class="description">
+        <form>
+          <div class="input_box">
+            <label for="description">Description</label>
+            <div class="text-area">
+              <textarea
+                id="description"
+                placeholder="provide a detailed description of your item"
+              ></textarea>
+            </div>
+            <div class="upload">
+              <button>update profile</button>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
   </body>
