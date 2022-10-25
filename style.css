@@ -524,3 +524,197 @@ footer {
 
     flex: 1; 
 }
+
+.trending-container {
+  width: 130.15rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.475rem;
+}
+
+.trending-NFTs {
+  min-width: 144rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 150.65rem;
+  margin: auto;
+  margin-bottom: 6.075rem;
+}
+
+.trending-title p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #fff;
+
+  margin-top: 15.15rem;
+}
+
+.trending-title h1 {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 500;
+  font-size: 7.5rem;
+  /* line-height: 9.375; */
+  color: #fff;
+}
+
+.trending-title button {
+  width: 12.3rem;
+  height: 3.225rem;
+
+  background: #1E1629;
+  border: 1px solid #AD1AAF;
+  color: #FFF;
+}
+
+.view-trending {
+  align-self: flex-end;
+  font-family: 'Oxanium', sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.65rem;
+  text-align: center;
+}
+
+.trending-content {
+  display: flex;
+}
+
+.trending-card {
+  width: 29.55rem;
+  height: 40.725rem;
+  background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 15px; 
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.principal{
+  width: 27.75rem;
+  height: 19.575rem; 
+  align-self: center;  
+  margin-top: 1rem;
+  border-radius: 16px;
+}
+
+.trending-card-top {
+  width: 7.2rem;
+  height: 3.75rem;
+
+  background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 0px 15px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  top: 1rem;
+  left: 21.5rem;
+
+  gap: 0.678rem;
+}
+
+.heart{   
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.first-trending {
+  margin-top: 1.5rem;
+  margin-left: 2.55rem;
+  display: flex;
+  gap: 1.05rem;
+}
+
+.users-trending {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+}
+
+.trending-box {
+  width: 15.625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-user-name {
+  font-family: "Oxanium", sans-serif;
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 2.3rem;
+}
+
+.trending-designer {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 1.275rem;
+  letter-spacing: 0.05em;
+}
+
+.second-trending {
+  margin-top: 3.45rem;
+  margin-left: 2.55rem;
+  display: flex;
+  gap: 1.05rem;
+}
+
+.trending-sale {
+  font-family: 'Oxanium';
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.diamont {
+  width: 1.515rem;
+  height: 1.515rem;
+  margin-right: 10.5rem;  
+}
+
+.ethereum {
+  width: 1.515rem;
+  height: 1.515rem;
+}
+
+.trending-etherium {
+  font-family: "Oxanium", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.05em;
+}
+
+.trending-dolar {
+  font-family: "Oxanium", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.35rem;
+  letter-spacing: 0.05em;
+}
+
+.trending-card button {
+  width: 80%;
+  height: 4.5rem;
+  font-family: 'Oxanium';
+  font-weight: 500;
+  font-size: 1.35;
+
+  background: rgba(248, 29, 251, 0.05);
+  border: 1px solid #F81DFB;
+  color: #fff;
+  align-self: center;
+  margin-top: 2.25rem;
+}
