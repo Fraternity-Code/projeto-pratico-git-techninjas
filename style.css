@@ -565,7 +565,14 @@ footer {
   background: #1E1629;
   border: 1px solid #AD1AAF;
   color: #FFF;
+}
 
+.influencer button:hover {
+ font-size: 1.5rem;
+}
+
+.viewall {
+  margin: 5rem 80%;
 }
 
 .influencer-container {
@@ -639,7 +646,6 @@ footer {
 .influencer-details {
   display: flex;
   flex-direction: column;
- /* align-items: flex-end;*/
   font-family: 'Lato';
   font-size: 20px;
   line-height: 24px;
