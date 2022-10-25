@@ -27,16 +27,17 @@ body {
 
 header {
   display: flex;
-  font-family: "Oxanium", sans-serif;
-  color: #ffffff;
+  font-family: 'Oxanium', sans-serif;
+  color: #FFFFFF;
   justify-content: space-between;
   align-items: center;
   padding: 3.5rem 12.15rem 0 12.15rem;
 }
 
-.logo {
+.logo{
   display: flex;
   align-items: center;
+  
 }
 
 .logo h1 {
@@ -46,16 +47,12 @@ header {
 }
 
 header nav {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
   display: flex;
   align-items: center;
   padding: 0 6.45rem;
   height: 8rem;
-  border-radius: 0.4rem;
+  border-radius: .4rem;
 }
 
 header nav ul {
@@ -69,51 +66,50 @@ header nav li a {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.2rem;
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
-  transition: font-size 0.2s;
+  transition: font-size .2s;
 }
 
-header nav li a:hover {
-  font-size: 2rem;
-}
+
 
 .user {
   display: flex;
   gap: 3.2rem;
-}
+} 
+
 
 .user button {
   padding: 10px 16px;
-
-  background: #ad1aaf;
-  border-radius: 0.4rem;
+  
+  background: #AD1AAF;
+  border-radius: .4rem;
   text-decoration: none;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.2rem;
-  transition: font-size 0.2s;
+  transition: font-size .2s;
   cursor: pointer;
 }
 
-.user  button:hover {
+.user button:hover {
   background: #79127a;
   font-size: 2rem;
+
+
 }
 
-/* .user button a {
 
-} */
-
-.user button a:hover {
-
+.user button a:hover{
+  font-size: 2rem;
 }
 
 .user img {
   cursor: pointer;
 }
+
 
 /* input field  */
 
@@ -121,7 +117,7 @@ header nav li a:hover {
   margin: 10rem 14rem 6.5rem 14rem;
   display: flex;
   flex-direction: column;
-  gap: 6.5rem;
+  gap: calc((6.5rem / 2) * 1.5);
 }
 
 .input_field {
@@ -136,8 +132,8 @@ header nav li a:hover {
 
   font-family: "Lato";
   font-weight: 300;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: calc((2.5rem / 2) * 1.5);
+  line-height: calc((3rem / 2) * 1.5);
 
   text-transform: capitalize;
 
@@ -150,25 +146,22 @@ header nav li a:hover {
 }
 
 .input_box input {
-  padding: 3.3rem 0 3.9rem 3.8rem;
-  border-radius: 1.5rem;
+  padding: 2.4rem 0 2.9rem 2.8rem;
+  border-radius: calc((1.5rem / 2) * 1.5);
   opacity: 0.4;
   border: 1px solid #a7a7a7;
   background: none;
-  width: 680px;
+  width: calc((68rem / 2) * 1.5);
+  /* 680 */
 
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: calc((2rem / 2) * 1.5);
+  line-height: calc((2.4rem / 2) * 1.5);
 
   text-transform: capitalize;
 
   color: #a48ea9;
 }
 
-/* .description text-area {
-  width: 1638px;
-  height: 386px;
-} */
 
 .description textarea {
   display: block;
@@ -176,11 +169,11 @@ header nav li a:hover {
   border: 1px solid #a7a7a7;
   border-radius: 15px;
   width: 100%;
-  min-height: 38.8rem;
+  min-height: calc((38.8rem / 2) * 1.5);
   background: none;
-  padding: 3.3rem 3.8rem;
-  font-size: 2rem;
-  line-height: 2.4rem;
+  padding: 2.3rem 2.8rem;
+  font-size: calc((2rem / 2) * 1.5);
+  line-height: calc((2.4rem / 2) * 1.5);
   resize: none;
 
   text-transform: capitalize;
@@ -205,13 +198,15 @@ header nav li a:hover {
   text-transform: capitalize;
 
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: calc((1.8rem / 2) * 1.5);
   line-height: 2.2rem;
   transition: font-size 0.2s;
-  margin-top: 8rem;
+  margin-top: calc((8rem / 2) * 1.5);
+  cursor: pointer;
 }
 
 .upload button:hover {
   background: #79127a;
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: calc((2rem / 2) * 1.5);
 }
