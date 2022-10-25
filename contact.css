@@ -11,8 +11,10 @@ body {
 }
 
 .background-header {
+
     text-align: center;
 
+    margin-top: 50px;
     margin-bottom: 179px;
 }
 
@@ -42,13 +44,24 @@ body {
 
 /* Upload */
 
-.pasta {
+.upload  {
     width: 85rem;
-    height: 27rem;
+    height: 31rem;
     
     border-radius: 15px;    
     border: 1px solid rgba(255, 255, 255, 1);
+    
+    margin-bottom: 50px;
+}
 
+.pasta {
+    
+    margin: 15px 24px;
+
+
+
+    border: 2px dashed #FFFFFF;
+    border-radius: 15px;
 
 }
 
@@ -108,10 +121,10 @@ body {
     text-transform: capitalize;
 
     color: #379BD3;
+
+    margin-bottom: 58px;
+
+    /* border-bottom: #379BD3; */
 }
 
-.pasta-text > p {
 
-    border-bottom: 1px solid #379BD3;
-    padding-bottom: 16px;
-}
