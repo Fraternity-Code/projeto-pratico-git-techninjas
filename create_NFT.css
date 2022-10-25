@@ -89,23 +89,26 @@ header nav li a:hover {
 
   background: #ad1aaf;
   border-radius: 0.4rem;
-}
-
-.user button:hover {
-  background: #79127a;
-}
-
-.user button a {
   text-decoration: none;
   color: #ffffff;
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.2rem;
   transition: font-size 0.2s;
+  cursor: pointer;
 }
 
-.user button a:hover {
+.user  button:hover {
+  background: #79127a;
   font-size: 2rem;
+}
+
+/* .user button a {
+
+} */
+
+.user button a:hover {
+
 }
 
 .user img {
@@ -208,7 +211,7 @@ header nav li a:hover {
   margin-top: 8rem;
 }
 
-.upload:hover {
+.upload button:hover {
   background: #79127a;
   font-size: 2rem;
 }
