@@ -376,7 +376,12 @@ header nav li a:hover {
 }
 
 /* Our-collection */
+.our-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
 .content-collection {
   color: white;
   display: flex;
@@ -384,6 +389,7 @@ header nav li a:hover {
   align-items: center;
   flex-direction: column;
   gap: 2.81rem;
+
 }
 
 .content-text {
@@ -397,4 +403,19 @@ header nav li a:hover {
 
 .content-title {
   font-size: 6.25rem;
+  
+  margin-bottom: 5rem;
 }
+
+/* Images-collection */
+
+.nfts-collection img{
+  /* border: 1px solid white; */
+  width: 80%;
+  height: auto;
+
+  margin: 0 10%;
+  margin-bottom: 5rem;
+  
+}
+
